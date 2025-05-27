@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "squadcastfm",
+      "source": "@squadcastfm/v2.0#3o0v2j1il5os87wt",
+      "integrity": "sha512-6i5GILIM5xczuiU0w0kRaEKw1mKVbk7q/IEG1klDvru1CEEo55OK5f47kIPSPCX9vybuNxLmPp8UKdVVmJo0cQ==",
+      "installerVersion": "6.1.3"
+    }
+  ]
+}
