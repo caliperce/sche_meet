@@ -7,6 +7,7 @@ require('dotenv').config();
 if (!process.env.SQUADCAST) {
     console.error('SQUADCAST environment variable is not set!');
     process.exit(1);
+
 }
 
 squadcastfm.auth(process.env.SQUAD_CAST_AUTH);
