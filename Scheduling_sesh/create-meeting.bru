@@ -1,0 +1,23 @@
+meta {
+  name: create-meeting
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/create-session
+  body: json
+  auth: inherit
+}
+
+body:json {
+  [
+    {
+      "emails": "aish.hitchikersway@gmail.com , brittayprick@gmail.com",
+      "time": "10 am",
+      "timezone": "America/Los_Angeles",
+      "date": "June 12, 2025",
+      "name": "PMF session with Sara"
+    }
+  ]
+}
