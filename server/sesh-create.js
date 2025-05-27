@@ -4,8 +4,8 @@ const { format } = require('date-fns');
 require('dotenv').config();
 
 // Make sure the auth token is loaded
-if (!process.env.SQUAD_CAST_AUTH) {
-    console.error('SQUAD_CAST_AUTH environment variable is not set!');
+if (!process.env.SQUADCAST) {
+    console.error('SQUADCAST environment variable is not set!');
     process.exit(1);
 }
 
