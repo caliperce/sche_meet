@@ -10,7 +10,7 @@ if (!process.env.SQUADCAST) {
 
 }
 
-squadcastfm.auth(process.env.SQUAD_CAST_AUTH);
+squadcastfm.auth(process.env.SQUADCAST);
 
 const refine_properties = (emails, time, timezone, date, name) => {
    return data={
