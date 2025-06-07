@@ -13,6 +13,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/create-session", async (req, res) => {
+  //
   try {
     // Get the first object from the array
     const [sessionData] = req.body;
